@@ -1,0 +1,13 @@
+import React from 'react';
+import {Link} from 'react-router';
+
+const NotFound = () =>{
+return (
+    <div>
+      <h3>404 page not found</h3>
+      <p>We are sorry but the page you are looking for does not exist.</p>
+      <Link to="home" className="btn btn-primary btn-lg">Back to start</Link>
+    </div>
+  );
+};
+export default NotFound;
